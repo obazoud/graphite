@@ -16,7 +16,7 @@ supports 'oracle'
 supports 'fedora'
 
 depends  'python'
-depends  'runit', '~> 1.2'
+depends  'runit', '~> 1.7.4'
 depends  'build-essential'
 depends  'yum-epel'
 

@@ -18,4 +18,4 @@ exec chpst \
     $daemon \
     --pid $storage_path/${name}.pid \
 <%= "    --instance $instance \\" if @options[:instance] -%>
-    --debug start
+    start
